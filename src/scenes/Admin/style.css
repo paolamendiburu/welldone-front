@@ -1,0 +1,39 @@
+.admin-container{
+    max-width: 1060px;
+    margin: auto;
+    display: flex;
+    padding-top: 90px;
+}
+
+.admin-container .admin-nav{
+    margin-right: 30px;
+}
+
+.admin-container .admin-nav > a{
+    background: var(--primary);
+    color: white;
+    padding: 17px 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.admin-container .admin-nav > div{
+    width: 260px;
+    border: 1px solid #CCD0D2;
+}
+
+.admin-container .admin-nav > div a{
+    display: block;
+    border-bottom: 1px solid #CCD0D2;
+    padding: 17px 30px;
+    color: currentColor;
+}
+
+.admin-container .admin-nav > div a:last-child{
+    border-bottom: 0;
+}
+
+.admin-container .admin-nav > div a.active{
+    border-left: 4px solid var(--primary);
+    color: var(--primary)
+}

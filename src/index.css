@@ -1,0 +1,213 @@
+html {
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  overflow: auto;
+}
+a:hover,
+a:focus {
+  text-decoration: none !important;
+}
+.main-header {
+  background: white !important;
+  border-bottom: 1px solid #067cff;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  z-index: 20;
+  height: 77px;
+}
+.main-header .navbar-nav {
+  align-items: center;
+}
+.main-header__button {
+  background: #067cff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin: 0 0 0 20px;
+  color: white;
+}
+.main-header__button:hover {
+  background: #0064d2;
+  color: white;
+}
+.main-header__link {
+  margin-left: 20px;
+}
+.main-header .dropdown {
+  margin-left: 10px;
+}
+.main-header__language {
+  border: 0;
+  margin: 0 0 0 30px;
+  padding: 0;
+  color: gray;
+  cursor: pointer;
+}
+.main-header__language:focus,
+.main-header__language:hover {
+  outline: none;
+}
+.main-page {
+  padding-top: 77px;
+}
+.md-RichEditor-root {
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  padding: 15px 30px 15px 41px !important;
+}
+.write-article-form {
+  max-width: 780px;
+  margin: 50px auto;
+}
+.write-article-form h1 {
+  margin-bottom: 40px;
+}
+.write-article-form .editor-content.is-invalid .md-RichEditor-root {
+  border: 1px solid #dc3545;
+}
+.write-article-form .editor-content.is-invalid .invalid-tooltip {
+  display: block;
+}
+.answer-article__button {
+  background: #067cff;
+  padding: 15px 30px;
+  border-radius: 30px;
+  color: white;
+  margin: 2rem auto 2rem auto;
+  display: block;
+  cursor: pointer;
+}
+.underline-popover {
+  position: fixed;
+  background: #1d2124;
+  transform: translateY(-100%) translateX(-50%);
+  transition-duration: 0.5s;
+  display: none;
+  background-image: linear-gradient(to bottom, rgba(49, 49, 47, 0.99), #262625);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.underline-popover.selected button .svgIcon-use path {
+  fill: #fced22;
+}
+.underline-popover.info #button-remove {
+  display: block;
+}
+.underline-popover.info #button-select {
+  display: none;
+}
+.underline-popover #button-remove {
+  display: none;
+}
+.underline-popover #button-remove .svgIcon-use path {
+  fill: #fced22;
+}
+.underline-popover .arrow-clip {
+  position: absolute;
+  bottom: -9px;
+  left: 50%;
+  clip: rect(10px 20px 20px 0);
+  margin-left: -10px;
+}
+.underline-popover .arrow-clip .arrow {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-color: #262625;
+  -webkit-transform: rotate(45deg) scale(0.5);
+  transform: rotate(45deg) scale(0.5);
+}
+.underline-popover button {
+  -webkit-appearance: none;
+  background: none;
+  border: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.underline-popover button .svgIcon-use path {
+  fill: white;
+}
+.underline-popover button:hover,
+.underline-popover button:focus {
+  outline: none !important;
+}
+.underline {
+  background: #fced22;
+  padding: 3px 0;
+  cursor: pointer;
+}
+.highlight {
+  margin-bottom: 20px;
+  overflow: auto;
+}
+.highlight h2 {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'PT Serif';
+  margin-bottom: 15px;
+}
+.highlight .owner {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 14px;
+  opacity: 0.65;
+}
+.highlight .hightlight__text {
+  font-size: 16px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  font-weight: 300;
+  line-height: 22px;
+  min-height: 32px;
+}
+.highlight .hightlight__text:before {
+  content: '';
+  display: block;
+  width: 43px;
+  height: 32px;
+  background-image: url('/images/highlights.svg');
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.highlight .hightlight__text:after {
+  content: '';
+  display: block;
+  width: 43px;
+  height: 32px;
+  background-image: url('/images/highlights.svg');
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.highlight a.delete {
+  background: #aab2b5;
+  padding: 15px 30px;
+  border-radius: 30px;
+  margin: 10px 0 20px 0;
+  color: white;
+  display: block;
+  float: right;
+  cursor: pointer;
+}
+.highlight a.delete:hover {
+  background: #067cff;
+}
+#page-admin {
+  width: 100%;
+}
+#page-admin .write-article-form {
+  margin-top: 0;
+}
+/*# sourceMappingURL=index.css.map */

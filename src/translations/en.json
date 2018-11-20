@@ -1,0 +1,61 @@
+{
+  "Register": {
+    "Title": "Create your account for free and start sharing",
+    "Register": "Register",
+    "Login": "Login",
+    "BackLink": "I do not want to create an account <1>just explore the articles. <1>"
+  },
+  "Login": {
+    "Title": "Login"
+  },
+  "Form": {
+    "Username": "Username",
+    "Username error": "User exist",
+    "Email": "email",
+    "Email error": "Enter a valid email address that is not in use",
+    "Password": "Password",
+    "Password placeholder": "6 characters minimum",
+    "Password error": "6 characters minimum",
+    "Repeat password": "Repeat password",
+    "Create account": "Create account",
+    "History": "Tu historia",
+    "Write history": "Escribe tu historia",
+    "Login": "Login"
+  },
+  "Toast": {
+    "Create user": "Created user",
+    "Delete user": "Delete user"
+  },
+  "Admin menu": {
+    "Write article": "Write article",
+    "Articles": "My articles",
+    "Favourites": "Favoutites",
+    "Underlines": "Underlines",
+    "Notifications": "Notifications",
+    "Account": "Account"
+  },
+  "Admin account": {
+    "Delete account": "Delete account"
+  },
+  "Create article": {
+    "Title": "Write your article"
+  },
+  "MenuBar": {
+    "Filter Articles by": "Filter Articles by",
+    "All": "All",
+    "User": "User",
+    "Category": "Category",
+    "My Articles": "My Articles",
+    "My Favorites": "My Favorites",
+    "Order by": "Order by",
+    "Old": "Old",
+    "New": "New",
+    "First": "First",
+    "Last": "Last",
+    "Articles": "Articles",
+    "Comments": "Comments",
+    "Remove Favorite": "Remove Favorite",
+    "Add Favorite": "Add Favorite",
+    "Read More": "Read More ..."
+  }
+}

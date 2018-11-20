@@ -1,0 +1,83 @@
+{
+  "Register": {
+    "Title": "Crea tu cuenta de forma gratuita y empieza a compartir",
+    "Register": "Registro",
+    "Login": "Iniciar sesión",
+    "BackLink": "No quiero crear una cuenta <1>sólo explorar los artículos. <1>"
+  },
+  "Login": {
+    "Title": "Inicia sesión"
+  },
+  "Form": {
+    "Username": "Usuario",
+    "Username error": "El usuario ya existe",
+    "Email": "Email",
+    "Email error": "Escribe un email válido que no este en uso",
+    "Email not found": "El email no existe",
+    "Password": "Contraseña",
+    "Password new": "Nueva contraseña",
+    "Password new repeat": "Repetir nueva Contraseña",
+    "Password placeholder": "6 caracteres como mínimo",
+    "Password error": "6 caracteres como mínimo",
+    "Password error2": "Las contraseñas no son iguales",
+    "Repeat password": "Repetir contraseña",
+    "Create account": "Crear cuenta",
+    "Recover password": "Recuperar contraseña",
+    "Update password": "Actualizar contraseña",
+    "Write history": "Escribe tu historia",
+    "Title": "Título",
+    "Title error": "Escribe un título",
+    "Login": "Iniciar sesión"
+  },
+  "Toast": {
+    "Create user": "Usuario creado",
+    "Delete user": "Usuario Eliminado",
+    "Send ok": "Enviado correctamente",
+    "Update ok": "Actualizada correctamente",
+    "Create article": "Artículo creado",
+    "Create articleError": "Error al crear el artículo"
+  },
+  "Admin menu": {
+    "Write article": "Escribir un artículo",
+    "Articles": "Mis artículos",
+    "Favourites": "Favoritos",
+    "Underlines": "Subrayados",
+    "Notifications": "Notificaciones",
+    "Account": "Cuenta"
+  },
+  "Admin account": {
+    "Delete account": "Eliminar cuenta",
+    "Delete user": "Usuario eliminado",
+    "Modal title": "Vas a eliminar tu cuenta y todos tus artículos",
+    "Modal body": "¿Estas seguro?"
+  },
+  "Recover password": {
+    "Title": "Recuperar contraseña",
+    "Text": "Rellena el formulario y te enviaremos un enlace para actualizar la contraseña"
+  },
+  "Update password": {
+    "Title": "Actualiza tu contraseña",
+    "Text": "Rellena el formulario para actualizar la contraseña"
+  },
+  "Create article": {
+    "Title": "Escribe tu artículo"
+  },
+  "MenuBar": {
+    "Filter Articles by": "Filtrar Articulos por",
+    "All": "Todos",
+    "User": "Usuario",
+    "Category": "Categoria",
+    "My Articles": "Mis Articulos",
+    "My Favorites": "Mis Favoritos",
+    "Order by": "Ordenar por",
+    "Old": "Antiguos",
+    "New": "Recientes",
+    "First": "Primeros",
+    "Last": "Ultimos",
+    "Articles": "Articulos",
+    "Comments": "Comentarios",
+    "Remove Favorite": "Quitar Favorito",
+    "Add Favorite": "Agregar Favorito",
+    "Read More": "Leer Mas ..."
+  }
+}
